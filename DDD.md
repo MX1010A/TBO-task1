@@ -24,9 +24,9 @@ Przy czym agregat Bank Account zawiera encję Klient (Customer).
 
 | Agregat lub encja | Reguła |
 | --- | --- |
-| User | Posiada unikalny identyfikator i login. |
+| User | Posiada unikalny identyfikator i login. Wszystkie wartości string nie mogą zawierać znaków specjalnych. |
 | Bank Account | Posiada unikalny identyfikator, saldo nie może być ujemne. |
-| Customer | Posiada unikalny identyfikator, jego dane kontaktowe i adres powinny być wypełnione w całości. |
+| Customer | Posiada unikalny identyfikator, jego dane kontaktowe i adres powinny być wypełnione w całości. Wszystkie wartości string nie mogą zawierać znaków specjalnych. |
 | Transfer | Posiada unikalny identyfikator, kwota przelewu musi być większa od zera, oba konta powinny być aktywne. W przypadku różnicy walut przelewu i konta odbiorcy powinna nastąpić konwersja. |
 
 ### Obiekty wartości
